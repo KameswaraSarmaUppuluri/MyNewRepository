@@ -12,6 +12,12 @@ namespace ConsoleApp1
 
             Console.WriteLine("Result : {0}",obj.Factorial(5));
 
+            Console.WriteLine("Result : {0}", obj.Factorial(7));
+
+            Console.WriteLine("Result : {0}", obj.Factorial(9));
+
+            Console.ReadKey();
+
         }
     }
 }
